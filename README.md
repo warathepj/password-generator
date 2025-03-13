@@ -1,69 +1,80 @@
-# Welcome to your Lovable project
+# เลี้ยงกาแฟผู้พัฒนา
 
-## Project info
+!["Alt text"](https://warathepj.github.io/js-ai-gallery/public/image/promptpay-20.png)
 
-**URL**: https://lovable.dev/projects/301aa1b2-7297-4671-afa4-8ad5947e50a3
+# Secure Password Generator
 
-## How can I edit this code?
+A modern, secure password generator built with React, TypeScript, and Tailwind CSS. This application generates strong 8-character passwords that meet common security requirements.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Generates 8-character secure passwords
+- Ensures each password contains:
+  - At least one uppercase letter
+  - At least one lowercase letter
+  - At least one number
+  - At least one special character (!@#$%^&\*)
+- One-click password copying
+- Modern, responsive UI with Tailwind CSS
+- Toast notifications for user feedback
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/301aa1b2-7297-4671-afa4-8ad5947e50a3) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- [Vite](https://vitejs.dev/) - Build tool and development server
+- [React](https://reactjs.org/) - UI framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+- [Lucide Icons](https://lucide.dev/) - Icons
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (v14 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+````bash
+git clone https://github.com/warathepj/password-generator.git
+```
+2. Navigate to the project directory:
+```bash
+cd password-generator
 ```
 
-**Edit a file directly in GitHub**
+3. Install dependencies:
+```bash
+npm install
+```
+4. Start the development server:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run dev
 
-**Use GitHub Codespaces**
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The application will be available at `http://localhost:8080`
 
-## What technologies are used for this project?
+## Building for Production
 
-This project is built with .
+To create a production build:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run build
 
-## How can I deploy this project?
+```
 
-Simply open [Lovable](https://lovable.dev/projects/301aa1b2-7297-4671-afa4-8ad5947e50a3) and click on Share -> Publish.
+The built files will be in the `dist` directory.
 
-## I want to use a custom domain - is that possible?
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+   TODO:
+````
