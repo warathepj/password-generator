@@ -38,23 +38,40 @@ A modern, secure password generator built with React, TypeScript, and Tailwind C
 
 1. Clone the repository:
 
-````bash
+```bash
 git clone https://github.com/warathepj/password-generator.git
 ```
+
 2. Navigate to the project directory:
+
 ```bash
 cd password-generator
 ```
 
 3. Install dependencies:
+
 ```bash
 npm install
 ```
-4. Start the development server:
+
+4. Configure environment variables:
+
+   - Copy `.env.example` to `.env`:
+
+   ```bash
+   cp .env.example .env
+   ```
+
+   - Open `.env` and replace `your-password` with your desired password:
+
+   ```
+   VITE_APP_PASSWORD="your-password"
+   ```
+
+5. Start the development server:
 
 ```bash
 npm run dev
-
 ```
 
 The application will be available at `http://localhost:8080`
@@ -65,16 +82,10 @@ To create a production build:
 
 ```bash
 npm run build
-
 ```
 
 The built files will be in the `dist` directory.
 
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-   TODO:
-````
