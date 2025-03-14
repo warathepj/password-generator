@@ -38,7 +38,7 @@ A modern, secure password generator built with React, TypeScript, and Tailwind C
 
 1. Clone the repository:
 
-````bash
+```bash
 git clone https://github.com/warathepj/password-generator.git
 ```
 2. Navigate to the project directory:
@@ -76,5 +76,3 @@ The built files will be in the `dist` directory.
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-   TODO:
-````
